@@ -49,8 +49,8 @@ function fem3d_project ( sample_prefix, fem_prefix )
 %
 %    Input, string FEM_PREFIX, the common prefix for FEM files.
 
-  sample_prefix = 'r1x1x1';
-  fem_prefix    = 'r1x1x1';
+  sample_prefix = 'r1x1x1_t4';
+  fem_prefix    = 'r1x1x1_t4';
 %
   timestamp ( );
 

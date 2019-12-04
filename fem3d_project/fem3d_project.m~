@@ -68,7 +68,7 @@ function fem3d_project ( sample_prefix, fem_prefix )
   if ( nargin < 1 )
 
     fprintf ( '\n' );
-   % sample_prefix = input ( 'Enter the sample file prefix:' );
+    sample_prefix = input ( 'Enter the sample file prefix:' );
 
   else
 
@@ -77,7 +77,7 @@ function fem3d_project ( sample_prefix, fem_prefix )
   if ( nargin < 2 )
 
     fprintf ( '\n' );
-    %fem_prefix = input ( 'Enter the FEM file prefix:' );
+    fem_prefix = input ( 'Enter the FEM file prefix:' );
 
   else
 

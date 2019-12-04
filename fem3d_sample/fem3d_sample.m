@@ -1,5 +1,6 @@
 function fem3d_sample ( fem_prefix, sample_prefix )
 
+% approaching 3D diffusion
 %*****************************************************************************80
 %
 %% MAIN is the main program for FEM3D_SAMPLE.

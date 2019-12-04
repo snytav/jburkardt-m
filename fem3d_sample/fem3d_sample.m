@@ -49,19 +49,22 @@ function fem3d_sample ( fem_prefix, sample_prefix )
   fprintf ( 1, '  Read a file of sample arguments.\n' );
   fprintf ( 1, '  Write a file of function values at the arguments.\n' );
 %
+  fem_prefix    = 'fem_sq';
+  sample_prefix = 'sample_sq';
+  
 %  Get the number of command line arguments.
 %
   if ( nargin < 1 )
 
     fprintf ( 1, '\n' );
-    fem_prefix = input ( 'Enter the FEM file prefix:' );
+    %fem_prefix = input ( 'Enter the FEM file prefix:' );
 
   end
 
   if ( nargin < 2 )
 
     fprintf ( 1, '\n' );
-    sample_prefix = input ( 'Enter the sample file prefix:' );
+   % sample_prefix = input ( 'Enter the sample file prefix:' );
 
   end
 %
